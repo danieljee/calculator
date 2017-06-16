@@ -1,0 +1,64 @@
+body{
+	font-family:'Orbitron', 'sans-serif';
+	background-color:#303030;
+}
+
+button{
+	height: 45px;
+	width: 60px;
+	margin-right: 10px;
+	margin-bottom:10px;
+	border-radius: 5px;
+}
+
+button:focus{
+	outline:none;
+}
+
+.red {
+	background-color:#b7002d;
+	color: #fff;
+	border-color: #b7002d;
+}
+
+#currentVal, #buttonsPressed {
+	text-align:right;
+	margin: 5px 5px;
+}
+
+#invisible{
+	visibility:hidden;
+}
+
+#equal {
+	height: 90px;
+	position:absolute;
+	margin-top:-50px;
+}
+
+#zero{
+	width:120px;
+}
+
+#content{
+	margin: 10% auto 0 auto;
+	width: 30%;
+	height: 400px;
+	background-color:#ffffff;
+	border: 2px solid #ff4c4c;
+	border-radius: 15px;
+	box-shadow: 10px 10px 3px rgba(0,0,0, 0.5), inset -1px -6px 20px 1.1px #444;
+}
+
+#display{
+	height: 70px;
+	width: 80%;
+	margin: 10px auto;
+	background-color:#00d859;
+	border: 2px solid #ff4c4c;
+	border-radius: 15px;
+}
+
+#keypad{
+	margin: 10px 0 0 10px;
+}
